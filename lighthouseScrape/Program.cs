@@ -66,6 +66,7 @@ namespace lighthouseScrape
                 driver.Quit();
 
 #if DEBUG
+                Console.WriteLine("Finished");
                 Console.ReadLine();
 #endif
             }
